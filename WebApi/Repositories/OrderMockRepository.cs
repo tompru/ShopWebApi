@@ -85,7 +85,7 @@ namespace WebApi.Repositories
                 Id = GenerateOrderId(),
                 Client = addOrderModel.Client,
                 Products = addOrderModel.Products,
-                TotalPrice = GetTotalPrice(addOrderModel.Products)
+                TotalPrice = GetTotalPrice(addOrderModel)
             };
             return orderModel;
         }
@@ -95,10 +95,10 @@ namespace WebApi.Repositories
             return orderModelList.Max(x => x.Id) + 1;
         }
 
-        private double GetTotalPrice(List<ProductModel> products)
+        private double GetTotalPrice(AddOrderModel addOrderModel)
         {
             var url = @"http://localhost:52833/api/OrdersTotalPrice";
-            var contentJson = JsonConvert.SerializeObject(products);
+            var contentJson = JsonConvert.SerializeObject(addOrderModel);
             var buffer = System.Text.Encoding.UTF8.GetBytes(contentJson);
             var byteContent = new ByteArrayContent(buffer);
             byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");

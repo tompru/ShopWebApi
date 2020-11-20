@@ -22,6 +22,5 @@ namespace WebApi
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-        //test
     }
 }

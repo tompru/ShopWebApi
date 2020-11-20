@@ -14,40 +14,15 @@ namespace TotalPriceApi.Controllers
     {
         // POST: api/<OrdersTotalPriceController>
         [HttpPost]
-        public IActionResult Post(List<ProductModel> products)
+        public IActionResult Post(AddOrderModel addOrderModel)
         {
-            if (!products.Any())
+            if (!addOrderModel.Products.Any())
             {
                 return BadRequest("Product list can not be empty.");
             }
-            var totalPriceHelper = new TotalPriceHelper();
-            var totalPrice = Math.Round(totalPriceHelper.CalculateTotalPrice(products),2);
+            var totalPriceHelper = new TotalPriceHelper(addOrderModel.Client.Id);
+            var totalPrice = Math.Round(totalPriceHelper.CalculateTotalPrice(addOrderModel.Products),2);
             return Ok(totalPrice);
         }
-
-/*        // GET api/<OrdersTotalPriceController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/<OrdersTotalPriceController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<OrdersTotalPriceController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<OrdersTotalPriceController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }*/
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\ClientServiceHost.exe.config
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\ClientServiceHost.exe
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\ClientServiceHost.pdb
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\ClientService.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\ClientService.pdb
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\ClientService.dll.config
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\obj\Debug\ClientServiceHost.csprojAssemblyReference.cache
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\obj\Debug\ClientServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\obj\Debug\ClientServiceHost.csproj.CopyComplete
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\obj\Debug\ClientServiceHost.exe
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\ClientServiceHost\obj\Debug\ClientServiceHost.pdb
