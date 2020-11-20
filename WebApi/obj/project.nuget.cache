@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lEKKjnuWQ7WLcONTYCuuUcwi1NA3oRe81rQ52tSJUmiQ45DtOLZ2sEncgfOajme+02Mmnt/3OEL15NN2W3cK5w==",
+  "dgSpecHash": "0fHq8KwWuWQwXg7+U5lNk4ApxskRvS7bh0IwxD6ci+EOM9ngym5j5M4zImTGtLWbAe20o2h0I0AFDPGr4adViA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Operator\\Desktop\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Operator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\tpruzynski\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
