@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Models;
 using WebApi.Repositories;
@@ -20,6 +21,7 @@ namespace WebApi.Controllers
 
         // GET: api/<OrderController>
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             var allOrders = orderRepository.GetAllOrders();
@@ -32,6 +34,7 @@ namespace WebApi.Controllers
 
         // GET api/<OrderController>/5
         [HttpGet("{id}")]
+        [Authorize]
         public IActionResult Get(int clientId)
         {
             var clientOrders = orderRepository.GetClientOrders(clientId);
@@ -44,6 +47,7 @@ namespace WebApi.Controllers
 
         // POST api/<OrderController>
         [HttpPost]
+        [Authorize]
         public IActionResult Post(AddOrderModel addOrderModel)
         {
             try

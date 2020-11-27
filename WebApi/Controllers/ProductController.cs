@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebApi.Models;
 using WebApi.Repositories;
@@ -20,6 +21,7 @@ namespace WebApi.Controllers
 
         // GET: api/<ProductController>
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             var allProducts = productRepository.GetAll();
@@ -32,6 +34,7 @@ namespace WebApi.Controllers
 
         // GET api/<ProductController>/5
         [HttpGet("{id}")]
+        [Authorize]
         public IActionResult Get(int productId)
         {
             var product = productRepository.Get(productId);
@@ -44,6 +47,7 @@ namespace WebApi.Controllers
 
         // POST api/<ProductController>
         [HttpPost]
+        [Authorize]
         public IActionResult Post(AddProductModel addProductModel)
         {
             try
@@ -56,18 +60,5 @@ namespace WebApi.Controllers
                 return BadRequest($"An error occured duting adding new product.\n{ex.Message}");
             }            
         }
-
-
-        /*        // PUT api/<ProductController>/5
-                [HttpPut("{id}")]
-                public void Put(int id, [FromBody] string value)
-                {
-                }
-
-                // DELETE api/<ProductController>/5
-                [HttpDelete("{id}")]
-                public void Delete(int id)
-                {
-                }*/
     }
 }

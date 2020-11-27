@@ -22,7 +22,6 @@ C:\Users\Operator\Desktop\WebApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.MvcApplic
 C:\Users\Operator\Desktop\WebApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.csproj.CopyComplete
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\WebApi.exe
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\WebApi.deps.json
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\WebApi.runtimeconfig.json
@@ -42,3 +41,11 @@ C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\obj\Debug\netcoreapp3.1\stati
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.dll
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.pdb
 C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebApi.styles.css

@@ -1,0 +1,15 @@
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\bin\Debug\netcoreapp3.1\WebApiTestApp.exe
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\bin\Debug\netcoreapp3.1\WebApiTestApp.deps.json
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\bin\Debug\netcoreapp3.1\WebApiTestApp.runtimeconfig.json
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\bin\Debug\netcoreapp3.1\WebApiTestApp.runtimeconfig.dev.json
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\bin\Debug\netcoreapp3.1\WebApiTestApp.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\bin\Debug\netcoreapp3.1\WebApiTestApp.pdb
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.csprojAssemblyReference.cache
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.AssemblyInfoInputs.cache
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.AssemblyInfo.cs
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.csproj.CoreCompileInputs.cache
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.csproj.CopyComplete
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.dll
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.pdb
+C:\Users\tpruzynski\Downloads\WebApi\WebApi\WebApiTestApp\obj\Debug\netcoreapp3.1\WebApiTestApp.genruntimeconfig.cache
