@@ -1,5 +1,7 @@
 using System.Text;
+using IdentityServer4.AccessTokenValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,18 +25,31 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
+                .AddIdentityServerAuthentication(o =>
+                {
+                    o.Authority = "https://localhost:44393";
+                    o.ApiName = "WebApi";
+                });
+            services.AddAuthorization(o =>
+            {
+                o.AddPolicy("Read", policy => policy.RequireScope("WebApi.read"));
+                o.AddPolicy("Write", policy => policy.RequireScope("WebApi.write"));
+                o.AddPolicy("Full", policy => policy.RequireScope("WebApi.full"));
+            });
+
             services.AddControllers();
-            services.AddTransient((config) =>
+/*            services.AddTransient((config) =>
             {
                 var cfg = new JwtConfiguration();
                 Configuration.GetSection("JwtConfiguration").Bind(cfg);
                 return cfg;
-            });
+            });*/
             services.AddTransient<IProductRepository, ProductMockRepository>();
             services.AddTransient<IOrderRepository, OrderMockRepository>();
             services.AddTransient<IUserRepository, UserRepository>();
 
-            ConfigureJwt(services);
+            //ConfigureJwt(services);
 
         }
 
@@ -47,7 +62,6 @@ namespace WebApi
             }
 
             app.UseRouting();
-
             app.UseAuthentication();
             app.UseAuthorization();
 

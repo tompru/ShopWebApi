@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\TotalPriceApi\\TotalPriceApi.csproj": {}
+    "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\TotalPriceApi\\TotalPriceApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\TotalPriceApi\\TotalPriceApi.csproj": {
+    "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\TotalPriceApi\\TotalPriceApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\TotalPriceApi\\TotalPriceApi.csproj",
+        "projectUniqueName": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\TotalPriceApi\\TotalPriceApi.csproj",
         "projectName": "TotalPriceApi",
-        "projectPath": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\TotalPriceApi\\TotalPriceApi.csproj",
-        "packagesPath": "C:\\Users\\tpruzynski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\TotalPriceApi\\obj\\",
+        "projectPath": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\TotalPriceApi\\TotalPriceApi.csproj",
+        "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\TotalPriceApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tpruzynski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "System.ServiceModel.Duplex": {
               "target": "Package",
               "version": "[4.4.*, )"

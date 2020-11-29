@@ -52,19 +52,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tpruzynski\\.nuget\\packages\\": {}
+    "C:\\Users\\Tomek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApiTestApp\\WebApiTestApp.csproj",
+      "projectUniqueName": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApiTestApp\\WebApiTestApp.csproj",
       "projectName": "WebApiTestApp",
-      "projectPath": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApiTestApp\\WebApiTestApp.csproj",
-      "packagesPath": "C:\\Users\\tpruzynski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApiTestApp\\obj\\",
+      "projectPath": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApiTestApp\\WebApiTestApp.csproj",
+      "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApiTestApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tpruzynski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\tpruzynski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tpruzynski\\Downloads\\WebApi\\WebApi\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomek\\Desktop\\WebApi\\ShopWebApi\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tpruzynski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.10, )"

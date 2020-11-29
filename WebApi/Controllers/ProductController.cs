@@ -21,7 +21,7 @@ namespace WebApi.Controllers
 
         // GET: api/<ProductController>
         [HttpGet]
-        [Authorize]
+        [Authorize(Policy = "Read")]
         public IActionResult Get()
         {
             var allProducts = productRepository.GetAll();
@@ -34,7 +34,7 @@ namespace WebApi.Controllers
 
         // GET api/<ProductController>/5
         [HttpGet("{id}")]
-        [Authorize]
+        [Authorize(Policy = "Read")]
         public IActionResult Get(int productId)
         {
             var product = productRepository.Get(productId);
@@ -47,7 +47,7 @@ namespace WebApi.Controllers
 
         // POST api/<ProductController>
         [HttpPost]
-        [Authorize]
+        [Authorize(Policy = "Write")]
         public IActionResult Post(AddProductModel addProductModel)
         {
             try

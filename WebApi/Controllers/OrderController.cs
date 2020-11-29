@@ -9,7 +9,7 @@ using WebApi.Repositories;
 
 namespace WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")]    
     [ApiController]
     public class OrderController : ControllerBase
     {
@@ -20,8 +20,8 @@ namespace WebApi.Controllers
         }
 
         // GET: api/<OrderController>
-        [HttpGet]
-        [Authorize]
+        [HttpGet]   
+        [Authorize(Policy = "Read")]
         public IActionResult Get()
         {
             var allOrders = orderRepository.GetAllOrders();
@@ -34,7 +34,7 @@ namespace WebApi.Controllers
 
         // GET api/<OrderController>/5
         [HttpGet("{id}")]
-        [Authorize]
+        [Authorize(Policy = "Read")]
         public IActionResult Get(int clientId)
         {
             var clientOrders = orderRepository.GetClientOrders(clientId);
@@ -47,7 +47,7 @@ namespace WebApi.Controllers
 
         // POST api/<OrderController>
         [HttpPost]
-        [Authorize]
+        [Authorize(Policy = "Write")]
         public IActionResult Post(AddOrderModel addOrderModel)
         {
             try
